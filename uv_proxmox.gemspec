@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{uv_proxmox}
-  s.version = "0.0.0"
+  s.version = "0.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["maxschulze"]
@@ -23,11 +23,13 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "examples/create_new_virtual_machine.rb",
      "lib/uv_proxmox.rb",
      "lib/uv_proxmox/connection.rb",
      "lib/uv_proxmox/virtual_machine.rb",
      "test/helper.rb",
-     "test/test_uv_proxmox.rb"
+     "test/test_uv_proxmox.rb",
+     "uv_proxmox.gemspec"
   ]
   s.homepage = %q{http://github.com/maxschulze/uv_proxmox}
   s.rdoc_options = ["--charset=UTF-8"]
